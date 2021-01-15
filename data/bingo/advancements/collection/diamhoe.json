@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "acquire_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{ "item": "minecraft:diamond_hoe" }]
+            }
+        }
+    },
+    "rewards": {
+        "function": "bingo:advancements/diamhoe"
+    }
+}

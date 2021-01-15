@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "acquire_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{ "item": "minecraft:flint_and_steel" }]
+            }
+        }
+    },
+    "rewards": {
+        "function": "bingo:advancements/flintsteel"
+    }
+}

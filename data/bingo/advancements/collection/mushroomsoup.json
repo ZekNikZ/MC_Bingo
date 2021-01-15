@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "acquire_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{ "item": "minecraft:mushroom_soup" }]
+            }
+        }
+    },
+    "rewards": {
+        "function": "bingo:advancements/mushroomsoup"
+    }
+}

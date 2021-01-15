@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "acquire_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{ "item": "minecraft:gold_block" }]
+            }
+        }
+    },
+    "rewards": {
+        "function": "bingo:advancements/goldblock"
+    }
+}
