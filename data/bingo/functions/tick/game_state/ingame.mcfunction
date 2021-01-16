@@ -1,6 +1,13 @@
 # Timer
 scoreboard players remove timer bingo.game_info 1
+scoreboard players operation minutes bingo.game_info = timer bingo.game_info
+scoreboard players operation minutes bingo.game_info /= #ticks_to_mins bingo.constants
+scoreboard players operation seconds bingo.game_info = timer bingo.game_info
+scoreboard players operation seconds bingo.game_info %= #one_minute bingo.constants
+scoreboard players operation seconds bingo.game_info /= #ticks_to_secs bingo.constants
 execute store result bossbar bingo:timer value run scoreboard players get timer bingo.game_info
+execute if score seconds bingo.game_info matches 10.. run bossbar set bingo:timer name ["Bingo - ",{"score":{"name":"minutes","objective":"bingo.game_info"}},":",{"score":{"name":"seconds","objective":"bingo.game_info"}}]
+execute if score seconds bingo.game_info matches ..9 run bossbar set bingo:timer name ["Bingo - ",{"score":{"name":"minutes","objective":"bingo.game_info"}},":0",{"score":{"name":"seconds","objective":"bingo.game_info"}}]
 
 # Timer transitions
 execute if score timer bingo.game_info matches 7200 run bossbar set bingo:timer color yellow

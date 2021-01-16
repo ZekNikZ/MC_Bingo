@@ -21,6 +21,7 @@ scoreboard objectives remove bingo.ready
 scoreboard objectives remove bingo.items
 scoreboard objectives remove bingo.items_calc
 scoreboard objectives remove bingo.items_pres
+scoreboard objectives remove bingo.final
 
 scoreboard objectives remove bingo.cyan
 scoreboard objectives remove bingo.green
@@ -50,6 +51,7 @@ scoreboard objectives add bingo.ready dummy
 scoreboard objectives add bingo.items dummy
 scoreboard objectives add bingo.items_calc dummy
 scoreboard objectives add bingo.items_pres dummy
+scoreboard objectives add bingo.final dummy ["",{"text":"Final Scores","color":"gold"}]
 
 scoreboard objectives add bingo.cyan dummy
 scoreboard objectives add bingo.green dummy
@@ -180,3 +182,7 @@ bossbar set bingo:timer visible true
 
 # Constants
 scoreboard players set #twenty bingo.constants 20
+scoreboard players set #sixty bingo.constants 60
+scoreboard players set #ticks_to_mins bingo.constants 1200
+scoreboard players set #ticks_to_secs bingo.constants 20
+scoreboard players set #one_minute bingo.constants 1200

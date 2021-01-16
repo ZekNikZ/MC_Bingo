@@ -8,7 +8,7 @@ execute as @a at @s run playsound minecraft:event.raid.horn voice @s ~ ~ ~ 100 1
 bossbar set bingo:timer players @a
 bossbar set bingo:timer value 18000
 bossbar set bingo:timer max 18000
-bossbar set bingo:timer name "Bingo"
+bossbar set bingo:timer name "Bingo - 15:00"
 bossbar set bingo:timer color blue
 bossbar set bingo:timer style notched_6
 

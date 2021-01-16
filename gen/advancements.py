@@ -96,6 +96,7 @@ items = [
     ("minecraft:writable_book", "Book and Quill", "bookquill"),
     ("minecraft:yellow_concrete", "Yellow Concrete", "yellconc")
 ]
+items.sort(key=lambda t: t[1].lower())
 
 reset_file_path = "./data/bingo/functions/setup/reset_items.mcfunction"
 load_item_path = "./data/bingo/functions/setup/load_single_item.mcfunction"
