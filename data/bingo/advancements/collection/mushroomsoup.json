@@ -3,7 +3,7 @@
         "acquire_item": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [{ "item": "minecraft:mushroom_soup" }]
+                "items": [{ "item": "minecraft:mushroom_stew" }]
             }
         }
     },

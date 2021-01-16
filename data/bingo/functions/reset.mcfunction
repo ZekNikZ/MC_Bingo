@@ -172,8 +172,8 @@ scoreboard players set start_timer bingo.game_info -1
 bossbar remove bingo:timer
 bossbar add bingo:timer {"text":"Waiting to begin..."}
 bossbar set bingo:timer color yellow
-bossbar set bingo:timer max 14400
-bossbar set bingo:timer value 14400
+bossbar set bingo:timer max 18000
+bossbar set bingo:timer value 18000
 bossbar set bingo:timer players @a
 bossbar set bingo:timer style progress
 bossbar set bingo:timer visible true

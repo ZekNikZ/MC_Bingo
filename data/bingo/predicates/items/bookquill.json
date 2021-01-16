@@ -2,7 +2,7 @@
     "condition": "location_check",
     "predicate": {
         "block": {
-            "nbt": "{Items:[{Slot:0b,id:\"minecraft:book_and_quill\"}]}"
+            "nbt": "{Items:[{Slot:0b,id:\"minecraft:writable_book\"}]}"
         }
     }
 }

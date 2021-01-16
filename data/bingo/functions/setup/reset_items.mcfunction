@@ -7,8 +7,6 @@ scoreboard players set armorst bingo.items 0
 scoreboard players set armorst bingo.items_pres 0
 scoreboard players set arrow bingo.items 0
 scoreboard players set arrow bingo.items_pres 0
-scoreboard players set bookquill bingo.items 0
-scoreboard players set bookquill bingo.items_pres 0
 scoreboard players set bookshelf bingo.items 0
 scoreboard players set bookshelf bingo.items_pres 0
 scoreboard players set bricks bingo.items 0
@@ -165,6 +163,8 @@ scoreboard players set tntcart bingo.items 0
 scoreboard players set tntcart bingo.items_pres 0
 scoreboard players set whiteconc bingo.items 0
 scoreboard players set whiteconc bingo.items_pres 0
+scoreboard players set bookquill bingo.items 0
+scoreboard players set bookquill bingo.items_pres 0
 scoreboard players set yellconc bingo.items 0
 scoreboard players set yellconc bingo.items_pres 0
 
@@ -174,7 +174,6 @@ scoreboard players set activrail bingo.cyan 0
 scoreboard players set anvil bingo.cyan 0
 scoreboard players set armorst bingo.cyan 0
 scoreboard players set arrow bingo.cyan 0
-scoreboard players set bookquill bingo.cyan 0
 scoreboard players set bookshelf bingo.cyan 0
 scoreboard players set bricks bingo.cyan 0
 scoreboard players set campfire bingo.cyan 0
@@ -253,6 +252,7 @@ scoreboard players set stonebricks bingo.cyan 0
 scoreboard players set target bingo.cyan 0
 scoreboard players set tntcart bingo.cyan 0
 scoreboard players set whiteconc bingo.cyan 0
+scoreboard players set bookquill bingo.cyan 0
 scoreboard players set yellconc bingo.cyan 0
 
 # Green team
@@ -261,7 +261,6 @@ scoreboard players set activrail bingo.green 0
 scoreboard players set anvil bingo.green 0
 scoreboard players set armorst bingo.green 0
 scoreboard players set arrow bingo.green 0
-scoreboard players set bookquill bingo.green 0
 scoreboard players set bookshelf bingo.green 0
 scoreboard players set bricks bingo.green 0
 scoreboard players set campfire bingo.green 0
@@ -340,6 +339,7 @@ scoreboard players set stonebricks bingo.green 0
 scoreboard players set target bingo.green 0
 scoreboard players set tntcart bingo.green 0
 scoreboard players set whiteconc bingo.green 0
+scoreboard players set bookquill bingo.green 0
 scoreboard players set yellconc bingo.green 0
 
 # White team
@@ -348,7 +348,6 @@ scoreboard players set activrail bingo.white 0
 scoreboard players set anvil bingo.white 0
 scoreboard players set armorst bingo.white 0
 scoreboard players set arrow bingo.white 0
-scoreboard players set bookquill bingo.white 0
 scoreboard players set bookshelf bingo.white 0
 scoreboard players set bricks bingo.white 0
 scoreboard players set campfire bingo.white 0
@@ -427,6 +426,7 @@ scoreboard players set stonebricks bingo.white 0
 scoreboard players set target bingo.white 0
 scoreboard players set tntcart bingo.white 0
 scoreboard players set whiteconc bingo.white 0
+scoreboard players set bookquill bingo.white 0
 scoreboard players set yellconc bingo.white 0
 
 # Purple team
@@ -435,7 +435,6 @@ scoreboard players set activrail bingo.purple 0
 scoreboard players set anvil bingo.purple 0
 scoreboard players set armorst bingo.purple 0
 scoreboard players set arrow bingo.purple 0
-scoreboard players set bookquill bingo.purple 0
 scoreboard players set bookshelf bingo.purple 0
 scoreboard players set bricks bingo.purple 0
 scoreboard players set campfire bingo.purple 0
@@ -514,6 +513,7 @@ scoreboard players set stonebricks bingo.purple 0
 scoreboard players set target bingo.purple 0
 scoreboard players set tntcart bingo.purple 0
 scoreboard players set whiteconc bingo.purple 0
+scoreboard players set bookquill bingo.purple 0
 scoreboard players set yellconc bingo.purple 0
 
 # Orange team
@@ -522,7 +522,6 @@ scoreboard players set activrail bingo.orange 0
 scoreboard players set anvil bingo.orange 0
 scoreboard players set armorst bingo.orange 0
 scoreboard players set arrow bingo.orange 0
-scoreboard players set bookquill bingo.orange 0
 scoreboard players set bookshelf bingo.orange 0
 scoreboard players set bricks bingo.orange 0
 scoreboard players set campfire bingo.orange 0
@@ -601,6 +600,7 @@ scoreboard players set stonebricks bingo.orange 0
 scoreboard players set target bingo.orange 0
 scoreboard players set tntcart bingo.orange 0
 scoreboard players set whiteconc bingo.orange 0
+scoreboard players set bookquill bingo.orange 0
 scoreboard players set yellconc bingo.orange 0
 
 # Red team
@@ -609,7 +609,6 @@ scoreboard players set activrail bingo.red 0
 scoreboard players set anvil bingo.red 0
 scoreboard players set armorst bingo.red 0
 scoreboard players set arrow bingo.red 0
-scoreboard players set bookquill bingo.red 0
 scoreboard players set bookshelf bingo.red 0
 scoreboard players set bricks bingo.red 0
 scoreboard players set campfire bingo.red 0
@@ -688,6 +687,7 @@ scoreboard players set stonebricks bingo.red 0
 scoreboard players set target bingo.red 0
 scoreboard players set tntcart bingo.red 0
 scoreboard players set whiteconc bingo.red 0
+scoreboard players set bookquill bingo.red 0
 scoreboard players set yellconc bingo.red 0
 
 # Gold team
@@ -696,7 +696,6 @@ scoreboard players set activrail bingo.yellow 0
 scoreboard players set anvil bingo.yellow 0
 scoreboard players set armorst bingo.yellow 0
 scoreboard players set arrow bingo.yellow 0
-scoreboard players set bookquill bingo.yellow 0
 scoreboard players set bookshelf bingo.yellow 0
 scoreboard players set bricks bingo.yellow 0
 scoreboard players set campfire bingo.yellow 0
@@ -775,6 +774,7 @@ scoreboard players set stonebricks bingo.yellow 0
 scoreboard players set target bingo.yellow 0
 scoreboard players set tntcart bingo.yellow 0
 scoreboard players set whiteconc bingo.yellow 0
+scoreboard players set bookquill bingo.yellow 0
 scoreboard players set yellconc bingo.yellow 0
 
 # Magenta team
@@ -783,7 +783,6 @@ scoreboard players set activrail bingo.magenta 0
 scoreboard players set anvil bingo.magenta 0
 scoreboard players set armorst bingo.magenta 0
 scoreboard players set arrow bingo.magenta 0
-scoreboard players set bookquill bingo.magenta 0
 scoreboard players set bookshelf bingo.magenta 0
 scoreboard players set bricks bingo.magenta 0
 scoreboard players set campfire bingo.magenta 0
@@ -862,5 +861,6 @@ scoreboard players set stonebricks bingo.magenta 0
 scoreboard players set target bingo.magenta 0
 scoreboard players set tntcart bingo.magenta 0
 scoreboard players set whiteconc bingo.magenta 0
+scoreboard players set bookquill bingo.magenta 0
 scoreboard players set yellconc bingo.magenta 0
 

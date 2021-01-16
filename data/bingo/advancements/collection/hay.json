@@ -3,7 +3,7 @@
         "acquire_item": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [{ "item": "minecraft:hay" }]
+                "items": [{ "item": "minecraft:hay_block" }]
             }
         }
     },

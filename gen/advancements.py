@@ -14,7 +14,6 @@ items = [
     ("minecraft:anvil", "Anvil", "anvil"),
     ("minecraft:armor_stand", "Armor Stand", "armorst"),
     ("minecraft:arrow", "Arrow", "arrow"),
-    ("minecraft:book_and_quill", "Book and Quill", "bookquill"),
     ("minecraft:bookshelf", "Bookshelf", "bookshelf"),
     ("minecraft:brick", "Bricks", "bricks"),
     ("minecraft:campfire", "Campfire", "campfire"),
@@ -39,7 +38,7 @@ items = [
     ("minecraft:dispenser", "Dispenser", "dispenser"),
     ("minecraft:dried_kelp_block", "Dried Kelp Block", "kelp"),
     ("minecraft:emerald", "Emerald", "emerald"),
-    ("minecraft:enchantment_table", "Enchantment Table", "enchants"),
+    ("minecraft:enchanting_table", "Enchanting Table", "enchants"),
     ("minecraft:fermented_spider_eye", "Fermented Spider Eye", "spidereye"),
     ("minecraft:firework_rocket", "Firework Rocket", "firework"),
     ("minecraft:fletching_table", "Fletching Table", "fletching"),
@@ -50,7 +49,7 @@ items = [
     ("minecraft:golden_carrot", "Golden Carrot", "gcarrot"),
     ("minecraft:grindstone", "Grindstone", "grindstone"),
     ("minecraft:glistering_melon_slice", "Glistering Melon", "gmelon"),
-    ("minecraft:hay", "Hay Block", "hay"),
+    ("minecraft:hay_block", "Hay Block", "hay"),
     ("minecraft:hopper_minecart", "Minecart with Hopper", "hoppercart"),
     ("minecraft:iron_bars", "Iron Bars", "iron_bars"),
     ("minecraft:iron_block", "Block of Iron", "ironblock"),
@@ -68,9 +67,9 @@ items = [
     ("minecraft:magma_block", "Magma Block", "magma"),
     ("minecraft:map", "Empty Map", "map"),
     ("minecraft:milk_bucket", "Milk Bucket", "milk"),
-    ("minecraft:mushroom_soup", "Mushroom Soup", "mushroomsoup"),
+    ("minecraft:mushroom_stew", "Mushroom Stew", "mushroomsoup"),
     # ("minecraft:music_disc", "Music Disc", ""), # TODO: figure out what to do about this
-    ("minecraft:noteblock", "Noteblock", "noteblock"),
+    ("minecraft:note_block", "Noteblock", "noteblock"),
     ("minecraft:obsidian", "Obsidian", "obsidian"),
     ("minecraft:paper", "Paper", "paper"),
     ("minecraft:painting", "Painting", "painting"),
@@ -94,6 +93,7 @@ items = [
     ("minecraft:target", "Target", "target"),
     ("minecraft:tnt_minecart", "Minecart with TNT", "tntcart"),
     ("minecraft:white_concrete", "White Concrete", "whiteconc"),
+    ("minecraft:writable_book", "Book and Quill", "bookquill"),
     ("minecraft:yellow_concrete", "Yellow Concrete", "yellconc")
 ]
 

@@ -2,7 +2,7 @@
     "condition": "location_check",
     "predicate": {
         "block": {
-            "nbt": "{Items:[{Slot:0b,id:\"minecraft:enchantment_table\"}]}"
+            "nbt": "{Items:[{Slot:0b,id:\"minecraft:enchanting_table\"}]}"
         }
     }
 }
