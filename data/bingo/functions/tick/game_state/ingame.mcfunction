@@ -10,9 +10,9 @@ execute if score seconds bingo.game_info matches 10.. run bossbar set bingo:time
 execute if score seconds bingo.game_info matches ..9 run bossbar set bingo:timer name ["Bingo - ",{"score":{"name":"minutes","objective":"bingo.game_info"}},":0",{"score":{"name":"seconds","objective":"bingo.game_info"}}]
 
 # Timer transitions
-execute if score timer bingo.game_info matches 7200 run bossbar set bingo:timer color yellow
-execute if score timer bingo.game_info matches 7200 run tellraw @a ["[",{"text":"BINGO","color":"gold","bold":true},"] 6 minutes remain in the round!"]
-execute if score timer bingo.game_info matches 7200 as @a at @s run playsound minecraft:block.note_block.pling voice @s ~ ~ ~
+execute if score timer bingo.game_info matches 6000 run bossbar set bingo:timer color yellow
+execute if score timer bingo.game_info matches 6000 run tellraw @a ["[",{"text":"BINGO","color":"gold","bold":true},"] 5 minutes remain in the round!"]
+execute if score timer bingo.game_info matches 6000 as @a at @s run playsound minecraft:block.note_block.pling voice @s ~ ~ ~
 
 execute if score timer bingo.game_info matches 1200 run bossbar set bingo:timer color red
 execute if score timer bingo.game_info matches 1200 run tellraw @a ["[",{"text":"BINGO","color":"gold","bold":true},"] 1 minute remains in the round!"]

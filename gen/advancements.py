@@ -11,14 +11,14 @@ teams = [
 
 items = [
     ("minecraft:activator_rail", "Activator Rail", "activrail"),
-    ("minecraft:anvil", "Anvil", "anvil"),
+    ("minecraft:anvil", "Anvil", "anvil"), # todo: add
     ("minecraft:armor_stand", "Armor Stand", "armorst"),
     ("minecraft:arrow", "Arrow", "arrow"),
     ("minecraft:bookshelf", "Bookshelf", "bookshelf"),
-    ("minecraft:brick", "Bricks", "bricks"),
+    ("minecraft:bricks", "Bricks", "bricks"),
     ("minecraft:campfire", "Campfire", "campfire"),
     ("minecraft:cartography_table", "Cartography Table", "cartography"),
-    ("minecraft:cauldron", "Cauldron", "cauldron"),
+    ("minecraft:cauldron", "Cauldron", "cauldron"), #todo: fix
     ("minecraft:chest_minecart", "Minecart with Chest", "chestcart"),
     ("minecraft:clock", "Clock", "clock"),
     ("minecraft:coal_block", "Block of Coal", "coalblock"),
@@ -44,11 +44,11 @@ items = [
     ("minecraft:fletching_table", "Fletching Table", "fletching"),
     ("minecraft:flint_and_steel", "Flint and Steel", "flintsteel"),
     ("minecraft:flower_pot", "Flower Pot", "flowerpot"),
+    ("minecraft:glistering_melon_slice", "Glistering Melon", "gmelon"),
     ("minecraft:gold_block", "Block of Gold", "goldblock"),
     ("minecraft:golden_apple", "Golden Apple", "gapple"),
     ("minecraft:golden_carrot", "Golden Carrot", "gcarrot"),
-    ("minecraft:grindstone", "Grindstone", "grindstone"),
-    ("minecraft:glistering_melon_slice", "Glistering Melon", "gmelon"),
+    ("minecraft:grindstone", "Grindstone", "grindstone"), #TODO
     ("minecraft:hay_block", "Hay Block", "hay"),
     ("minecraft:hopper_minecart", "Minecart with Hopper", "hoppercart"),
     ("minecraft:iron_bars", "Iron Bars", "iron_bars"),
@@ -57,9 +57,9 @@ items = [
     ("minecraft:jack_o_lantern", "Jack o'Lantern", "jack"),
     ("minecraft:jukebox", "Jukebox", "jukebox"),
     ("minecraft:ladder", "Ladder", "ladder"),
-    ("minecraft:lantern", "Lantern", "lantern"),
+    ("minecraft:lantern", "Lantern", "lantern"), # TODO
     ("minecraft:lapis_block", "Lapis Lazuli Block", "lapisblock"),
-    ("minecraft:lectern", "Lectern", "lectern"),
+    ("minecraft:lectern", "Lectern", "lectern"), # TODO
     ("minecraft:light_blue_dye", "Light Blue Dye", "lbluedye"),
     ("minecraft:light_gray_dye", "Light Gray Dye", "lgraydye"),
     ("minecraft:loom", "Loom", "loom"),
@@ -91,6 +91,7 @@ items = [
     ("minecraft:smooth_stone", "Smooth Stone", "smoothstone"),
     ("minecraft:stone_bricks", "Stone Bricks", "stonebricks"),
     ("minecraft:target", "Target", "target"),
+    ("minecraft:tnt", "TNT", "tnt"),
     ("minecraft:tnt_minecart", "Minecart with TNT", "tntcart"),
     ("minecraft:white_concrete", "White Concrete", "whiteconc"),
     ("minecraft:writable_book", "Book and Quill", "bookquill"),

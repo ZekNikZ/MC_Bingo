@@ -3,11 +3,11 @@
         "acquire_item": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [{ "item": "minecraft:bricks" }]
+                "items": [{ "item": "minecraft:tnt" }]
             }
         }
     },
     "rewards": {
-        "function": "bingo:advancements/bricks"
+        "function": "bingo:advancements/tnt"
     }
 }

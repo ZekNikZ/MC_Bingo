@@ -161,6 +161,8 @@ scoreboard players set stonebricks bingo.items 0
 scoreboard players set stonebricks bingo.items_pres 0
 scoreboard players set target bingo.items 0
 scoreboard players set target bingo.items_pres 0
+scoreboard players set tnt bingo.items 0
+scoreboard players set tnt bingo.items_pres 0
 scoreboard players set waterbot bingo.items 0
 scoreboard players set waterbot bingo.items_pres 0
 scoreboard players set whiteconc bingo.items 0
@@ -251,6 +253,7 @@ scoreboard players set smoothstone bingo.cyan 0
 scoreboard players set steak bingo.cyan 0
 scoreboard players set stonebricks bingo.cyan 0
 scoreboard players set target bingo.cyan 0
+scoreboard players set tnt bingo.cyan 0
 scoreboard players set waterbot bingo.cyan 0
 scoreboard players set whiteconc bingo.cyan 0
 scoreboard players set yellconc bingo.cyan 0
@@ -338,6 +341,7 @@ scoreboard players set smoothstone bingo.green 0
 scoreboard players set steak bingo.green 0
 scoreboard players set stonebricks bingo.green 0
 scoreboard players set target bingo.green 0
+scoreboard players set tnt bingo.green 0
 scoreboard players set waterbot bingo.green 0
 scoreboard players set whiteconc bingo.green 0
 scoreboard players set yellconc bingo.green 0
@@ -425,6 +429,7 @@ scoreboard players set smoothstone bingo.white 0
 scoreboard players set steak bingo.white 0
 scoreboard players set stonebricks bingo.white 0
 scoreboard players set target bingo.white 0
+scoreboard players set tnt bingo.white 0
 scoreboard players set waterbot bingo.white 0
 scoreboard players set whiteconc bingo.white 0
 scoreboard players set yellconc bingo.white 0
@@ -512,6 +517,7 @@ scoreboard players set smoothstone bingo.purple 0
 scoreboard players set steak bingo.purple 0
 scoreboard players set stonebricks bingo.purple 0
 scoreboard players set target bingo.purple 0
+scoreboard players set tnt bingo.purple 0
 scoreboard players set waterbot bingo.purple 0
 scoreboard players set whiteconc bingo.purple 0
 scoreboard players set yellconc bingo.purple 0
@@ -599,6 +605,7 @@ scoreboard players set smoothstone bingo.orange 0
 scoreboard players set steak bingo.orange 0
 scoreboard players set stonebricks bingo.orange 0
 scoreboard players set target bingo.orange 0
+scoreboard players set tnt bingo.orange 0
 scoreboard players set waterbot bingo.orange 0
 scoreboard players set whiteconc bingo.orange 0
 scoreboard players set yellconc bingo.orange 0
@@ -686,6 +693,7 @@ scoreboard players set smoothstone bingo.red 0
 scoreboard players set steak bingo.red 0
 scoreboard players set stonebricks bingo.red 0
 scoreboard players set target bingo.red 0
+scoreboard players set tnt bingo.red 0
 scoreboard players set waterbot bingo.red 0
 scoreboard players set whiteconc bingo.red 0
 scoreboard players set yellconc bingo.red 0
@@ -773,6 +781,7 @@ scoreboard players set smoothstone bingo.yellow 0
 scoreboard players set steak bingo.yellow 0
 scoreboard players set stonebricks bingo.yellow 0
 scoreboard players set target bingo.yellow 0
+scoreboard players set tnt bingo.yellow 0
 scoreboard players set waterbot bingo.yellow 0
 scoreboard players set whiteconc bingo.yellow 0
 scoreboard players set yellconc bingo.yellow 0
@@ -860,6 +869,7 @@ scoreboard players set smoothstone bingo.magenta 0
 scoreboard players set steak bingo.magenta 0
 scoreboard players set stonebricks bingo.magenta 0
 scoreboard players set target bingo.magenta 0
+scoreboard players set tnt bingo.magenta 0
 scoreboard players set waterbot bingo.magenta 0
 scoreboard players set whiteconc bingo.magenta 0
 scoreboard players set yellconc bingo.magenta 0

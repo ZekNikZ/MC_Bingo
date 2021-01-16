@@ -16,7 +16,7 @@ execute if score bricks bingo.items matches 5 as @s[team=cyan] if score bricks b
 execute if score bricks bingo.items matches 3 as @s[team=cyan] if score bricks bingo.cyan matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~ ~-1 ~3 ~2 ~-1 ~18 minecraft:cyan_concrete
 execute if score bricks bingo.items matches 2 as @s[team=cyan] if score bricks bingo.cyan matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~19 ~-1 ~3 ~21 ~-1 ~18 minecraft:cyan_concrete
 execute if score bricks bingo.items matches 1 as @s[team=cyan] if score bricks bingo.cyan matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~ ~-1 ~19 ~21 ~-1 ~21 minecraft:cyan_concrete
-execute if score bricks bingo.items matches 1.. as @s[team=cyan] if score bricks bingo.cyan matches 0 run clear @s minecraft:brick 1
+execute if score bricks bingo.items matches 1.. as @s[team=cyan] if score bricks bingo.cyan matches 0 run clear @s minecraft:bricks 1
 execute if score bricks bingo.items matches 1.. as @s[team=cyan] if score bricks bingo.cyan matches 0 as @a[team=cyan] at @s run playsound minecraft:entity.player.levelup voice @s ~ ~ ~
 execute if score bricks bingo.items matches 1.. as @s[team=cyan] if score bricks bingo.cyan matches 0 as @a[team=cyan] at @s run particle minecraft:totem_of_undying ~ ~1 ~ 1.5 0.6 1.5 0 200 normal @s
 execute if score bricks bingo.items matches 1.. as @s[team=cyan] if score bricks bingo.cyan matches 0 run scoreboard players operation #total bingo.cyan += bricks bingo.items
@@ -37,7 +37,7 @@ execute if score bricks bingo.items matches 5 as @s[team=green] if score bricks 
 execute if score bricks bingo.items matches 3 as @s[team=green] if score bricks bingo.green matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~ ~-1 ~3 ~2 ~-1 ~18 minecraft:green_concrete
 execute if score bricks bingo.items matches 2 as @s[team=green] if score bricks bingo.green matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~19 ~-1 ~3 ~21 ~-1 ~18 minecraft:green_concrete
 execute if score bricks bingo.items matches 1 as @s[team=green] if score bricks bingo.green matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~ ~-1 ~19 ~21 ~-1 ~21 minecraft:green_concrete
-execute if score bricks bingo.items matches 1.. as @s[team=green] if score bricks bingo.green matches 0 run clear @s minecraft:brick 1
+execute if score bricks bingo.items matches 1.. as @s[team=green] if score bricks bingo.green matches 0 run clear @s minecraft:bricks 1
 execute if score bricks bingo.items matches 1.. as @s[team=green] if score bricks bingo.green matches 0 as @a[team=green] at @s run playsound minecraft:entity.player.levelup voice @s ~ ~ ~
 execute if score bricks bingo.items matches 1.. as @s[team=green] if score bricks bingo.green matches 0 as @a[team=green] at @s run particle minecraft:totem_of_undying ~ ~1 ~ 1.5 0.6 1.5 0 200 normal @s
 execute if score bricks bingo.items matches 1.. as @s[team=green] if score bricks bingo.green matches 0 run scoreboard players operation #total bingo.green += bricks bingo.items
@@ -58,7 +58,7 @@ execute if score bricks bingo.items matches 5 as @s[team=white] if score bricks 
 execute if score bricks bingo.items matches 3 as @s[team=white] if score bricks bingo.white matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~ ~-1 ~3 ~2 ~-1 ~18 minecraft:light_gray_concrete
 execute if score bricks bingo.items matches 2 as @s[team=white] if score bricks bingo.white matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~19 ~-1 ~3 ~21 ~-1 ~18 minecraft:light_gray_concrete
 execute if score bricks bingo.items matches 1 as @s[team=white] if score bricks bingo.white matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~ ~-1 ~19 ~21 ~-1 ~21 minecraft:light_gray_concrete
-execute if score bricks bingo.items matches 1.. as @s[team=white] if score bricks bingo.white matches 0 run clear @s minecraft:brick 1
+execute if score bricks bingo.items matches 1.. as @s[team=white] if score bricks bingo.white matches 0 run clear @s minecraft:bricks 1
 execute if score bricks bingo.items matches 1.. as @s[team=white] if score bricks bingo.white matches 0 as @a[team=white] at @s run playsound minecraft:entity.player.levelup voice @s ~ ~ ~
 execute if score bricks bingo.items matches 1.. as @s[team=white] if score bricks bingo.white matches 0 as @a[team=white] at @s run particle minecraft:totem_of_undying ~ ~1 ~ 1.5 0.6 1.5 0 200 normal @s
 execute if score bricks bingo.items matches 1.. as @s[team=white] if score bricks bingo.white matches 0 run scoreboard players operation #total bingo.white += bricks bingo.items
@@ -79,7 +79,7 @@ execute if score bricks bingo.items matches 5 as @s[team=purple] if score bricks
 execute if score bricks bingo.items matches 3 as @s[team=purple] if score bricks bingo.purple matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~ ~-1 ~3 ~2 ~-1 ~18 minecraft:purple_concrete
 execute if score bricks bingo.items matches 2 as @s[team=purple] if score bricks bingo.purple matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~19 ~-1 ~3 ~21 ~-1 ~18 minecraft:purple_concrete
 execute if score bricks bingo.items matches 1 as @s[team=purple] if score bricks bingo.purple matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~ ~-1 ~19 ~21 ~-1 ~21 minecraft:purple_concrete
-execute if score bricks bingo.items matches 1.. as @s[team=purple] if score bricks bingo.purple matches 0 run clear @s minecraft:brick 1
+execute if score bricks bingo.items matches 1.. as @s[team=purple] if score bricks bingo.purple matches 0 run clear @s minecraft:bricks 1
 execute if score bricks bingo.items matches 1.. as @s[team=purple] if score bricks bingo.purple matches 0 as @a[team=purple] at @s run playsound minecraft:entity.player.levelup voice @s ~ ~ ~
 execute if score bricks bingo.items matches 1.. as @s[team=purple] if score bricks bingo.purple matches 0 as @a[team=purple] at @s run particle minecraft:totem_of_undying ~ ~1 ~ 1.5 0.6 1.5 0 200 normal @s
 execute if score bricks bingo.items matches 1.. as @s[team=purple] if score bricks bingo.purple matches 0 run scoreboard players operation #total bingo.purple += bricks bingo.items
@@ -100,7 +100,7 @@ execute if score bricks bingo.items matches 5 as @s[team=orange] if score bricks
 execute if score bricks bingo.items matches 3 as @s[team=orange] if score bricks bingo.orange matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~ ~-1 ~3 ~2 ~-1 ~18 minecraft:orange_concrete
 execute if score bricks bingo.items matches 2 as @s[team=orange] if score bricks bingo.orange matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~19 ~-1 ~3 ~21 ~-1 ~18 minecraft:orange_concrete
 execute if score bricks bingo.items matches 1 as @s[team=orange] if score bricks bingo.orange matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~ ~-1 ~19 ~21 ~-1 ~21 minecraft:orange_concrete
-execute if score bricks bingo.items matches 1.. as @s[team=orange] if score bricks bingo.orange matches 0 run clear @s minecraft:brick 1
+execute if score bricks bingo.items matches 1.. as @s[team=orange] if score bricks bingo.orange matches 0 run clear @s minecraft:bricks 1
 execute if score bricks bingo.items matches 1.. as @s[team=orange] if score bricks bingo.orange matches 0 as @a[team=orange] at @s run playsound minecraft:entity.player.levelup voice @s ~ ~ ~
 execute if score bricks bingo.items matches 1.. as @s[team=orange] if score bricks bingo.orange matches 0 as @a[team=orange] at @s run particle minecraft:totem_of_undying ~ ~1 ~ 1.5 0.6 1.5 0 200 normal @s
 execute if score bricks bingo.items matches 1.. as @s[team=orange] if score bricks bingo.orange matches 0 run scoreboard players operation #total bingo.orange += bricks bingo.items
@@ -121,7 +121,7 @@ execute if score bricks bingo.items matches 5 as @s[team=red] if score bricks bi
 execute if score bricks bingo.items matches 3 as @s[team=red] if score bricks bingo.red matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~ ~-1 ~3 ~2 ~-1 ~18 minecraft:red_concrete
 execute if score bricks bingo.items matches 2 as @s[team=red] if score bricks bingo.red matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~19 ~-1 ~3 ~21 ~-1 ~18 minecraft:red_concrete
 execute if score bricks bingo.items matches 1 as @s[team=red] if score bricks bingo.red matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~ ~-1 ~19 ~21 ~-1 ~21 minecraft:red_concrete
-execute if score bricks bingo.items matches 1.. as @s[team=red] if score bricks bingo.red matches 0 run clear @s minecraft:brick 1
+execute if score bricks bingo.items matches 1.. as @s[team=red] if score bricks bingo.red matches 0 run clear @s minecraft:bricks 1
 execute if score bricks bingo.items matches 1.. as @s[team=red] if score bricks bingo.red matches 0 as @a[team=red] at @s run playsound minecraft:entity.player.levelup voice @s ~ ~ ~
 execute if score bricks bingo.items matches 1.. as @s[team=red] if score bricks bingo.red matches 0 as @a[team=red] at @s run particle minecraft:totem_of_undying ~ ~1 ~ 1.5 0.6 1.5 0 200 normal @s
 execute if score bricks bingo.items matches 1.. as @s[team=red] if score bricks bingo.red matches 0 run scoreboard players operation #total bingo.red += bricks bingo.items
@@ -142,7 +142,7 @@ execute if score bricks bingo.items matches 5 as @s[team=yellow] if score bricks
 execute if score bricks bingo.items matches 3 as @s[team=yellow] if score bricks bingo.yellow matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~ ~-1 ~3 ~2 ~-1 ~18 minecraft:yellow_concrete
 execute if score bricks bingo.items matches 2 as @s[team=yellow] if score bricks bingo.yellow matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~19 ~-1 ~3 ~21 ~-1 ~18 minecraft:yellow_concrete
 execute if score bricks bingo.items matches 1 as @s[team=yellow] if score bricks bingo.yellow matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~ ~-1 ~19 ~21 ~-1 ~21 minecraft:yellow_concrete
-execute if score bricks bingo.items matches 1.. as @s[team=yellow] if score bricks bingo.yellow matches 0 run clear @s minecraft:brick 1
+execute if score bricks bingo.items matches 1.. as @s[team=yellow] if score bricks bingo.yellow matches 0 run clear @s minecraft:bricks 1
 execute if score bricks bingo.items matches 1.. as @s[team=yellow] if score bricks bingo.yellow matches 0 as @a[team=yellow] at @s run playsound minecraft:entity.player.levelup voice @s ~ ~ ~
 execute if score bricks bingo.items matches 1.. as @s[team=yellow] if score bricks bingo.yellow matches 0 as @a[team=yellow] at @s run particle minecraft:totem_of_undying ~ ~1 ~ 1.5 0.6 1.5 0 200 normal @s
 execute if score bricks bingo.items matches 1.. as @s[team=yellow] if score bricks bingo.yellow matches 0 run scoreboard players operation #total bingo.yellow += bricks bingo.items
@@ -163,7 +163,7 @@ execute if score bricks bingo.items matches 5 as @s[team=magenta] if score brick
 execute if score bricks bingo.items matches 3 as @s[team=magenta] if score bricks bingo.magenta matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~ ~-1 ~3 ~2 ~-1 ~18 minecraft:magenta_concrete
 execute if score bricks bingo.items matches 2 as @s[team=magenta] if score bricks bingo.magenta matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~19 ~-1 ~3 ~21 ~-1 ~18 minecraft:magenta_concrete
 execute if score bricks bingo.items matches 1 as @s[team=magenta] if score bricks bingo.magenta matches 0 at @e[type=minecraft:armor_stand,tag=bricks,tag=card_square] run fill ~ ~-1 ~19 ~21 ~-1 ~21 minecraft:magenta_concrete
-execute if score bricks bingo.items matches 1.. as @s[team=magenta] if score bricks bingo.magenta matches 0 run clear @s minecraft:brick 1
+execute if score bricks bingo.items matches 1.. as @s[team=magenta] if score bricks bingo.magenta matches 0 run clear @s minecraft:bricks 1
 execute if score bricks bingo.items matches 1.. as @s[team=magenta] if score bricks bingo.magenta matches 0 as @a[team=magenta] at @s run playsound minecraft:entity.player.levelup voice @s ~ ~ ~
 execute if score bricks bingo.items matches 1.. as @s[team=magenta] if score bricks bingo.magenta matches 0 as @a[team=magenta] at @s run particle minecraft:totem_of_undying ~ ~1 ~ 1.5 0.6 1.5 0 200 normal @s
 execute if score bricks bingo.items matches 1.. as @s[team=magenta] if score bricks bingo.magenta matches 0 run scoreboard players operation #total bingo.magenta += bricks bingo.items

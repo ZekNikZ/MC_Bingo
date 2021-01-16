@@ -330,6 +330,10 @@ execute positioned 1 255 0 if predicate bingo:items/target run scoreboard player
 execute positioned 1 255 0 if predicate bingo:items/target run scoreboard players set target bingo.items 5
 execute positioned 1 255 0 if predicate bingo:items/target as @e[type=minecraft:armor_stand,tag=card_square] at @s if score @s bingo.card = #current bingo.items run setblock ~3 ~-1 ~3 minecraft:structure_block[mode=load]{mode:"LOAD",name:"bingo:collection/target",posY:0,posX:0,posZ:0,ignoreEntities:0b}
 execute positioned 1 255 0 if predicate bingo:items/target as @e[type=minecraft:armor_stand,tag=card_square] at @s if score @s bingo.card = #current bingo.items run tag @s add target
+execute positioned 1 255 0 if predicate bingo:items/tnt run scoreboard players set tnt bingo.items_pres 1
+execute positioned 1 255 0 if predicate bingo:items/tnt run scoreboard players set tnt bingo.items 5
+execute positioned 1 255 0 if predicate bingo:items/tnt as @e[type=minecraft:armor_stand,tag=card_square] at @s if score @s bingo.card = #current bingo.items run setblock ~3 ~-1 ~3 minecraft:structure_block[mode=load]{mode:"LOAD",name:"bingo:collection/tnt",posY:0,posX:0,posZ:0,ignoreEntities:0b}
+execute positioned 1 255 0 if predicate bingo:items/tnt as @e[type=minecraft:armor_stand,tag=card_square] at @s if score @s bingo.card = #current bingo.items run tag @s add tnt
 execute positioned 1 255 0 if predicate bingo:items/waterbot run scoreboard players set waterbot bingo.items_pres 1
 execute positioned 1 255 0 if predicate bingo:items/waterbot run scoreboard players set waterbot bingo.items 5
 execute positioned 1 255 0 if predicate bingo:items/waterbot as @e[type=minecraft:armor_stand,tag=card_square] at @s if score @s bingo.card = #current bingo.items run setblock ~3 ~-1 ~3 minecraft:structure_block[mode=load]{mode:"LOAD",name:"bingo:collection/waterbot",posY:0,posX:0,posZ:0,ignoreEntities:0b}
