@@ -6,12 +6,21 @@ effect give @a minecraft:saturation 1000000 0 true
 effect give @a minecraft:speed 1000000 1 true
 xp set @a 0 points
 xp set @a 0 levels
+recipe give @a *
 
 # Tools
-clear @a
-give @a minecraft:iron_sword
-give @a minecraft:iron_pickaxe
-give @a minecraft:iron_axe
+clear @a[team=!spectator]
+give @a[team=!spectator] minecraft:iron_sword{Enchantments:[{id:"minecraft:sharpness",lvl:3s}],Unbreakable:1b}
+give @a[team=!spectator] minecraft:iron_pickaxe{Enchantments:[{id:"minecraft:efficiency",lvl:3s}],Unbreakable:1b}
+give @a[team=!spectator] minecraft:iron_axe{Enchantments:[{id:"minecraft:efficiency",lvl:3s}],Unbreakable:1b}
+give @a[team=!spectator] minecraft:iron_shovel{Enchantments:[{id:"minecraft:efficiency",lvl:3s}],Unbreakable:1b}
+
+# Map
+execute as @p[team=spectator] run data modify storage bingo:tools map append from entity @s SelectedItem
+execute as @p[team=spectator] run data remove storage bingo:tools map[].Slot
+execute as @p[team=spectator] run data modify block -1 255 -1 Items set from storage bingo:tools map
+execute as @a[team=!spectator] run loot replace entity @s weapon.offhand 1 mine -1 255 -1 minecraft:air{drop_contents: 1b}
+execute as @p[team=spectator] run data remove storage bingo:tools map
 
 # Enable items trigger
 scoreboard players set @a items 0

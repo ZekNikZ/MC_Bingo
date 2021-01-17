@@ -73,7 +73,6 @@ function bingo:setup/setup
 
 # Teams setup
 team remove spectator
-team remove dead
 team remove black
 team remove navy
 team remove green
@@ -161,6 +160,8 @@ setblock 1 255 0 yellow_shulker_box
 setblock 0 255 1 yellow_shulker_box
 # -1 255 0 - backup
 setblock -1 255 0 yellow_shulker_box
+# -1 255 -1 - map
+setblock -1 255 -1 yellow_shulker_box
 
 # Load 0,0
 forceload add 0 0
@@ -174,8 +175,8 @@ scoreboard players set start_timer bingo.game_info -1
 bossbar remove bingo:timer
 bossbar add bingo:timer {"text":"Waiting to begin..."}
 bossbar set bingo:timer color yellow
-bossbar set bingo:timer max 18000
-bossbar set bingo:timer value 18000
+bossbar set bingo:timer max 14400
+bossbar set bingo:timer value 14400
 bossbar set bingo:timer players @a
 bossbar set bingo:timer style progress
 bossbar set bingo:timer visible true
@@ -186,3 +187,6 @@ scoreboard players set #sixty bingo.constants 60
 scoreboard players set #ticks_to_mins bingo.constants 1200
 scoreboard players set #ticks_to_secs bingo.constants 20
 scoreboard players set #one_minute bingo.constants 1200
+
+# Card
+function bingo:setup/reset_card

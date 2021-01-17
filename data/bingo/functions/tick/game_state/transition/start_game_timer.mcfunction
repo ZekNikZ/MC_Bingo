@@ -2,7 +2,7 @@
 function bingo:setup/setup
 
 # Timer
-scoreboard players set timer bingo.game_info 18000
+scoreboard players set timer bingo.game_info 14400
 bossbar set bingo:timer players @a
 bossbar set bingo:timer value 100
 bossbar set bingo:timer max 100

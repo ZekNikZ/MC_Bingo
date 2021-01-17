@@ -1,7 +1,7 @@
 # Timer
 bossbar set bingo:timer color green
 bossbar set bingo:timer style progress
-bossbar set bingo:timer value 18000
+bossbar set bingo:timer value 14400
 bossbar set bingo:timer name "Game over!"
 
 # Gamemode
