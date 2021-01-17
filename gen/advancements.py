@@ -11,14 +11,14 @@ teams = [
 
 items = [
     ("minecraft:activator_rail", "Activator Rail", "activrail"),
-    ("minecraft:anvil", "Anvil", "anvil"), # todo: add
+    ("minecraft:anvil", "Anvil", "anvil"),
     ("minecraft:armor_stand", "Armor Stand", "armorst"),
     ("minecraft:arrow", "Arrow", "arrow"),
     ("minecraft:bookshelf", "Bookshelf", "bookshelf"),
     ("minecraft:bricks", "Bricks", "bricks"),
     ("minecraft:campfire", "Campfire", "campfire"),
     ("minecraft:cartography_table", "Cartography Table", "cartography"),
-    ("minecraft:cauldron", "Cauldron", "cauldron"), #todo: fix
+    ("minecraft:cauldron", "Cauldron", "cauldron"),
     ("minecraft:chest_minecart", "Minecart with Chest", "chestcart"),
     ("minecraft:clock", "Clock", "clock"),
     ("minecraft:coal_block", "Block of Coal", "coalblock"),
@@ -48,7 +48,7 @@ items = [
     ("minecraft:gold_block", "Block of Gold", "goldblock"),
     ("minecraft:golden_apple", "Golden Apple", "gapple"),
     ("minecraft:golden_carrot", "Golden Carrot", "gcarrot"),
-    ("minecraft:grindstone", "Grindstone", "grindstone"), #TODO
+    ("minecraft:grindstone", "Grindstone", "grindstone"),
     ("minecraft:hay_block", "Hay Block", "hay"),
     ("minecraft:hopper_minecart", "Minecart with Hopper", "hoppercart"),
     ("minecraft:iron_bars", "Iron Bars", "iron_bars"),
@@ -57,7 +57,7 @@ items = [
     ("minecraft:jack_o_lantern", "Jack o'Lantern", "jack"),
     ("minecraft:jukebox", "Jukebox", "jukebox"),
     ("minecraft:ladder", "Ladder", "ladder"),
-    ("minecraft:lantern", "Lantern", "lantern"), # TODO
+    ("minecraft:lantern", "Lantern", "lantern"),
     ("minecraft:lapis_block", "Lapis Lazuli Block", "lapisblock"),
     ("minecraft:lectern", "Lectern", "lectern"), # TODO
     ("minecraft:light_blue_dye", "Light Blue Dye", "lbluedye"),
